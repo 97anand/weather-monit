@@ -1,12 +1,12 @@
 #include <ESP8266WiFi.h>
 #include "Adafruit_MQTT.h"
 #include "Adafruit_MQTT_Client.h"
-#define WLAN_SSID       "anand"
-#define WLAN_PASS       "anand123"
+#define WLAN_SSID       "your ssid"
+#define WLAN_PASS       "your password"
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883                   // use 8883 for SSL
-#define AIO_USERNAME    "97anand"
-#define AIO_KEY         "6cf8523600754e5f849299d8f757dc82"
+#define AIO_USERNAME    "your adaf username"
+#define AIO_KEY         "your aio key"
 int x = 1;
 
 WiFiClient client;
